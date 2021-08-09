@@ -6,6 +6,7 @@ int main()
     float distance_in_mile, distance_in_km;
     float fuel_in_gallon, fuel_in_litre;
     float fuel_consume;
+    
     cout << "Enter the distance in miles:";
     cin >> distance_in_mile;
     cout << "Enter the fuel consume in gallon";

@@ -1,5 +1,6 @@
 #include <iostream>
 using namespace std;
+
 const int DAY_TO_HOURS = 24;
 const int HOURS_TO_MINUTES = 60;
 const int MINUTES_TO_SECONDS = 60;

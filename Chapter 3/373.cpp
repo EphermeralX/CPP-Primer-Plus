@@ -2,6 +2,7 @@
 using namespace std;
 const int DEGREE_TO_MINUTES = 60;
 const int MINUTES_TO_SECONDS = 60;
+
 int main()
 {
     int d,m,s;
