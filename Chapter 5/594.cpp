@@ -1,6 +1,7 @@
 #include <iostream>
 using namespace std;
 const int depost = 100;
+
 int main()
 {
     float daphne = depost;

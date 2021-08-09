@@ -2,6 +2,7 @@
 #include <array>
 const int size = 101;
 using namespace std;
+
 int main()
 {
     array<long double, size> factorials;

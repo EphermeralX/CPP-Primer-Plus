@@ -3,6 +3,7 @@
 using namespace std;
 
 const char FINISHED[] = "done";
+
 int main()
 {
     int counter = 6;

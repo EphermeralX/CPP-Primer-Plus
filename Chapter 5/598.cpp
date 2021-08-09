@@ -4,6 +4,7 @@ using namespace std;
 
 const int SIZE = 20;
 const char FINISHED[] = "done";
+
 int main()
 {
     int counter = 0;
