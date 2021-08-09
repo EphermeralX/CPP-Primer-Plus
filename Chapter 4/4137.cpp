@@ -1,11 +1,13 @@
 #include <iostream>
 using namespace std;
+
 struct Pizza
 {
     char company[40];
     float diameter;
     float weight;
 };
+
 int main()
 {
     Pizza dinner;

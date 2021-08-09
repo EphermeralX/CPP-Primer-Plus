@@ -2,7 +2,7 @@
 #include <cstring>
 using namespace std;
 
- struct CandyBar
+struct CandyBar
     {
         char brand[20];
         float weight;

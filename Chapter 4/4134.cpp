@@ -1,6 +1,7 @@
 #include <iostream>
 #include <cstring>
 using namespace std;
+
 int main()
 {
     string first_name, last_name;
