@@ -13,6 +13,7 @@ int main()
 {
     print1();
     print1();
+    
     print2();
     print2();
     return 0;
