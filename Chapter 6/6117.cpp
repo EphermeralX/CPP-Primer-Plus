@@ -9,6 +9,7 @@ int main()
     string input;
  
     cout << "Enter words (q to quit): " << endl;
+    
     while ((cin >> input))
     {
         if (input.length() == 1 && input[0] == 'q')

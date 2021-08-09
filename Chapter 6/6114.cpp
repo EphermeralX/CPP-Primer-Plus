@@ -32,7 +32,6 @@ void print_by_name(){
         else
             cout << bop_user[i].fullname << endl;
     }
-    
 }
 
 void print_by_pref(){

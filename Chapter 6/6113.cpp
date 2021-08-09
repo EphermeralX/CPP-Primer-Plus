@@ -18,6 +18,7 @@ int main()
         cout << "Please enter a c, p, t, or g: ";
         cin.get(choice);
     }
+    
     switch (choice)
     {
     case 'c':

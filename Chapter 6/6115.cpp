@@ -9,6 +9,7 @@ int main()
     double tax = 0.0;
  
     cout << "Please enter your income:";
+    
     while ((cin >> income) && (income > 0))
     {
         if (income <= 5000)

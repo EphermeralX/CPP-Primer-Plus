@@ -33,6 +33,7 @@ int main()
     }
     ppatrons = new patrons[patrons_number];
     fin.get();
+
     while (!fin.eof() && id < patrons_number)
     {
         getline(fin,ppatrons[id].full_name);
@@ -44,6 +45,7 @@ int main()
     }
     fin.close();
     cout << "Grand Patrons" << endl;
+
     for (int i = 0; i < patrons_number; i++)
     {
         if (ppatrons[i].fund >= 10000)
@@ -55,6 +57,7 @@ int main()
     if (empty) cout << "NONE" << endl;
     empty = false;
     cout << "Patrons" << endl;
+    
     for (int i = 0; i < patrons_number; i++)
     {
         if (ppatrons[i].fund < 10000)

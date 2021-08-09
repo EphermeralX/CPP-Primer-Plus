@@ -1,6 +1,7 @@
 #include <iostream>
 #include <fstream>
 using namespace std;
+
 int main()
 {
     string FileName;
@@ -17,6 +18,5 @@ int main()
     {
         num++;
     }
- 
     cout << "There are " << num << " characters in " << FileName << " file." << endl;
 }

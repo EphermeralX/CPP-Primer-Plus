@@ -12,10 +12,12 @@ int main()
         {
             cin.get(input);
             continue;
-        }else if(islower(input))
+        }
+        else if(islower(input))
         {
             input = toupper(input);
-        }else if(isupper(input))
+        }
+        else if(isupper(input))
         {
             input = tolower(input);
         }

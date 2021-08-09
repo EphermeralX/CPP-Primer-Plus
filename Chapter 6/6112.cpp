@@ -10,6 +10,7 @@ int main()
     int bigger = 0;
     cout << "Enter the double numberial: ";
     cin >> input;
+
     while (input != 0 && counter < 10)
     {
         donation[counter++] = input;
@@ -18,9 +19,7 @@ int main()
         cin >> input;
     }
     for (int i = 0; i < counter; i++)
-    {
         sum += input;
-    }
     average = sum / counter;
     for (int i = 0; i < counter; i++)
     {

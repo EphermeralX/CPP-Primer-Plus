@@ -5,6 +5,7 @@ struct pat_info
     string name;
     double amount;
 };
+
 int main()
 {
     unsigned int contributors = 0;
